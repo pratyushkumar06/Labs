@@ -29,7 +29,6 @@ int main(int argc,char *argv[]){
 		c=a-b;
 		printf("%d - %d = %d \n",a,b,c );
 	}
-	//sprintf("My rank is %d in total %d process ",rank,size ); 
 	MPI_Finalize();
 	return 0;
 }
