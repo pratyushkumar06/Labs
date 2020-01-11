@@ -37,7 +37,6 @@ int main(){
 	int colno = 0;
 
 	fa = fopen("q1.c","r");
-	// fb = fopen("result3.c","w");
 	printf("Word\t LineNo\t ColNo\n");
 	printf("--------------------------\n");
 
