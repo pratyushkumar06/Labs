@@ -35,7 +35,7 @@ void getNextToken()
 	while((ch = fgetc(fp)) != EOF){
    		for(i = 0; i < 8; ++i){
    			if(ch == operators[i])
-   				printf("<%c operator  %d  %d\n>", ch,linec,colc);
+   				printf("<%c operator  %d  %d>\n", ch,linec,colc);
    		}
    		
    		if(ch=='#')
@@ -101,7 +101,7 @@ void getNextToken()
    				if(isKeyword(buffer) == 1)
    					printf("<%s keyword  %d  %d>\n", buffer,linec,colc);
    				else
-   					printf("<%s indentifier  %d  %d>\n", buffer,linec,colc);
+   					printf("<%s identifier  %d  %d>\n", buffer,linec,colc);
    		}
    		
 	}
