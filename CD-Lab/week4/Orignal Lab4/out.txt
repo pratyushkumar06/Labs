@@ -1,0 +1,24 @@
+Identifier
+LB
+RB
+LC
+Keyword
+Identifier
+SS
+Identifier
+SS
+Identifier
+SS
+Identifier
+Assignment Operator
+Identifier
+ADD
+Identifier
+SS
+Identifier
+Assignment Operator
+Identifier
+MUL
+Number
+SS
+RC
