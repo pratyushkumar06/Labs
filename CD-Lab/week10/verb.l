@@ -4,7 +4,7 @@
 
 %%
 
-[\t\n ]+	;
+[a-zA-Z ]+	;
 is |
 was |
 had |

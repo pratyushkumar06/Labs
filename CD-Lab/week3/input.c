@@ -31,13 +31,5 @@ int main()
 	printf("Enter a number");
 	scanf("%d",&n);
 	
-	/*
-		Call and display 
-		whether prime or not */	
-	for(i=0;i<n;i++)
-	if(arm(x[i]))
-		printf("%d is Arm \n",x[i]);
-	else
-		printf("%d is not a Arm \n",x[i]);
-	return 0;
+	
 }
