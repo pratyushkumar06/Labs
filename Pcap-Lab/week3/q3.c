@@ -33,7 +33,9 @@ int main(int argc,char *argv[]) {
 	MPI_Scatter(&str, div, MPI_CHAR, &temp, div, MPI_CHAR, 0, MPI_COMM_WORLD);
 
 	int nvows = non_vowels(temp, div);
-
+	
+	printf("Rank: %d, String: %s, Non-Vowel Count: %d\n", rank,temp, nvows);
+	
 	MPI_Gather(&nvows, 1, MPI_INT, arr, 1, MPI_FLOAT, 0, MPI_COMM_WORLD);
 
 	if(rank == 0) {
